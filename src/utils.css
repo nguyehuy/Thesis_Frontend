@@ -1,0 +1,15 @@
+.solid-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.solid-modal-tree {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.solid-button-confirm {
+  width: 100px;
+}

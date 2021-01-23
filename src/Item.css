@@ -1,0 +1,62 @@
+.u-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  overflow-y: auto;
+  /* height: 500px; */
+  overscroll-behavior-y: contain;
+}
+.u-container :hover .u-edit-button{
+  display: block;
+}
+
+.u-container :hover{
+  /* background-color: aliceblue; */
+}
+
+.progress{
+  width: 170px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-edit{
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.u-zoom{
+  display: flex;
+  flex-direction: column;
+}
+
+.u-edit-button{
+  display: none;
+  margin: 0;
+}
+
+
+
+.u-item{
+  display: flex;
+  flex-direction: column;
+  padding:0px 8px;
+  /* max-height: 250px;
+  max-width: 250px; */
+}
+
+.u-title{
+  font-size: 12px;
+  max-width: 260px;
+  word-wrap: break-word;
+}
+
+.u-img{
+  height: 260px;
+  width: 260px;
+}

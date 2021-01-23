@@ -1,0 +1,131 @@
+.u-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow-y: auto;
+  /* height: 500px; */
+  overscroll-behavior-y: contain;
+}
+
+.body {
+  background-color: #efeffa;
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.nav-e{
+  margin-right:10px;
+}
+
+.u-container :hover .u-edit-button {
+  display: block;
+}
+
+.u-edit {
+  height: 40px;
+}
+
+.nav-login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #565858;
+}
+
+.nav-info {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+#standard-adornment-weight {
+  text-align: right;
+}
+#demo-simple-select{
+  min-width: 0px;
+}
+.nav-name {
+  margin: 25px;
+}
+
+.select-store-file{
+  background-color: '#3f51b5';
+}
+
+.u-edit-button {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  height: 10%;
+  align-items: center;
+}
+
+.u-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8px;
+}
+
+.u-title {
+  font-size: 12px;
+}
+
+.u-img {
+  height: 100px;
+  width: 100px;
+}
+
+.App {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

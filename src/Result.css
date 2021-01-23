@@ -1,0 +1,17 @@
+.rs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rs-list {
+  width: 48%;
+  background-color: rgb(236, 232, 232);
+  max-height: 85vh;
+  overflow-y: scroll;
+}
+
+.nav-btn {
+  margin: 10px !important;
+}
